@@ -3,7 +3,10 @@ result = 0
 
 for i in range (4):
     gess = int(input("Please make your guess: "))
-    if gess == pin:
+    if pin < 1 or pin >9999:
+        print("Your number can't have more than four digits!!! ")
+        break
+    elif gess == pin:
         print("That was corrett!")
         print()
         break

@@ -14,6 +14,6 @@ elif select_number_2 < select_number:
 
 for i in range(1, variavel+1):
     if select_number%i == 0 and select_number_2%i == 0:
-        resultado = denominador + i
+        resultado = i
 
 print(str(resultado) + " é denominador")
